@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+
+# Node dependencies
+node_modules
+
+# Logs
+*.log
+logs
+
+# Environment
+.env
+.env.*
+
+# Build output
+dist
+build
+target
+
+# Testing
+coverage
+*.test
+
+# IDE
+.vscode
+.idea
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Docker files
+docker-compose.yml
+README.md
+
+# CI
+.github
+
+# Local configs
+*.local

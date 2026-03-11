@@ -17,4 +17,4 @@ COPY --from=build /app/package*.json ./
 
 USER nonroot
 EXPOSE 3001
-CMD ["/src/server.js"]
+CMD ["src/server.js"]
